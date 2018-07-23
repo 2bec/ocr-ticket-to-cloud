@@ -17,10 +17,11 @@ Dividi em três objetivos principais:
 Foram identificados os seguintes casos de uso:
 
 ## Controle de compras
-Como você controla suas compras? Caso: Você vai a padaria, compra pão e outras coisas e acaba pagando em dinheiro.
-No final do mês você consegue facilmente ter as informações detalhadas dos gastos? Por exemplo, você sabe quanto gastou com presunto no mês passado?
-Usando o sistema você envia uma foto do cupom de compra, que contém as informações `local onde a compra foi feita` , `data em que foi feita`, `lista com preço dos produtos comprados`, `forma de pagamento` e `mais informações sobre pagamento` , o sistema lê o cupom e guarda essas informações para acesso futuro. Ao final do mês você consegue detalhar suas compras e saber onde gastou, como gastou e como pagou.
+Você precisa ter controle sobre a compra de cada produto ou serviço. Por exemplo, você sabe quanto gastou com presunto no mês passado? Ou quanto foi a variação do preço do feijão em determinado período?
 
 ## Controle de ponto pessoal
-Você quer controlar suas horas de trabalho, você bate ponto e recebe um registro de ponto impresso. Ao final do mês você precisa confrontar as horas na folha de pagamento.
-Utilize o sistema enviando uma foto do registro de ponto, você poderá ver uma lista com seus horários e customizar dashboards. Além disso poderá criar notificações para `hora de almoço` e `hora de saída`.
+Você quer controlar suas horas de trabalho. Ter acesso a uma tabela com as horas e receber alertas para a hora do almoço, o tempo de intervalo ou a hora da saída.
+
+### Informações dos tickets
+O ticket deve ter alguns requisitos dependendo do tipo caso de uso.
+São necessárias certas informações para que funcione da maneira adequada. Por exemplo, para o **controle de ponto pessoal** precisamos das seguintes informações no ticket: `empresa`, `local`, `pessoa`, `data` e `hora`.

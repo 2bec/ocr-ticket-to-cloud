@@ -137,3 +137,12 @@ Date: 21/04/2018
 Time: 19:53
 
 ```
+
+## Using Datastore API
+```
+import ticket
+from google.cloud import datastore
+client = datastore.Client('mycalendar-158220')
+ticket.get_today_start_time(client)
+
+```
